@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Car Finder</title>
+
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+
+
+    <link href="style/scrolling-nav.css" rel="stylesheet">
+
+  <script src="style/jquery-1.js"></script>
+    <script type="text/javascript" src="style/filters.js"></script>
+    <script type="text/javascript" src="style/jquery.js"></script>
+<style>
+
+#fut{color:black;}
+ul li {list-style:none;}
+#namecre{color:black;margin-left:-25px;font-size:20px;}
+button{color:white; padding:10px;background:#177ad6;border:0px;cursor:pointer;
+   }
+button:hover{background:#0e65b7; box-shadow: 0px 10px 2px solid white; -webkit-transition:all .5s ease;-moz-transition:all .5s ease;-ms-transition:all .5s ease;}
+#member{}
+#mm{color:black;font-size:20px;}
+#mail{color:black;}
+.services-section{}
+  .contact-section{  color:white;}
+.abouttext{position:relative; top:-400px;}
+#cmttxt{position:relative;right:205px;}
+.cl{float:left;margin-left:150px;
+margin-top:50px;}
+.cr{float:right;margin-right:150px;margin-top:50px;background:black;width:300px;padding:15px;border-radius:5px;height:500px;
+background:rgba(255,255,255,0.5);}
+
+#mail{font-size:35px;}
+#head{font-size:35px;color:black;}
+#txt{width:500px; border-radius:5px; background:rgba(255,255,255,0.1);
+     line-height: 30px;}
+     textarea{background:rgba(255,255,255,0.1);border-radius:5px;}
+
+#cmt{width:500px; height:200px;font-size:20px;   }
+#banhead{ color: Black;
+  font-size: 88px;position: relative;top:-150px;
+  line-height: 600px;
+
+  text-transform: ;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -webkit-animation-name: example; -webkit-animation-duration: 2s;
+    animation-name: example;
+    animation-duration: 2s;}
+@-webkit-keyframes example {
+    0%   { left:400px; }
+    100%  { left:0px; }
+
+	}
+	@-moz-keyframes example {
+    0%   { left:400px; }
+    100%  { left:0px; }
+
+	}
+.aboutcontent{position:relative;top:-300px; font-size:25px;}
+.aboutnote{font-size:15px;}
+
+
+.services-section{width:1260px;height:100%; }
+  iframe{width:1280px;height:700px;overflow: hidden;position:relative;left:-75px;top:-150px;
+  height:700px;}
+	#tagline{color: black;
+  font-size: 18px;position: relative;top:-650px;
+  line-height: 600px;
+
+  text-transform: ;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -webkit-animation-name: example1;
+    -webkit-animation-duration: 2s;
+    animation-name: example1;
+    animation-duration: 2s;}
+@-webkit-keyframes example1 {
+    0%   { right:500px; }
+    100%  { right:0px; }
+
+	}
+	@-moz-keyframes example1 {
+    0%   { right:500px; }
+    100%  { right:0px; }
+
+	}
+#bghome{background-image: url("images/bg2.jpg");width:100%;background-attachment:fixed;margin-top:-75px;
+}
+#bgcnt{background-image: url("images/bg11.jpg");width:100%;background-attachment:fixed;height:750px;margin-top: -100px;
+}
+</style>
+
+
+
+</head>
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+
+                <a class="navbar-brand page-scroll" href="#page-top">Car Finder</a>
+            </div>
+
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#findmycar">Find My Car</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <section id="intro" class="intro-section">
+        <div class="container" id="bghome">
+            <div class="row">
+                <div class="col-lg-12">
+
+
+
+           <h8 id="banhead"><font color="lightblue">Car</font><font color="white"> Finder</font></h8><br>
+           <h9 id="tagline"><b><font color="orange">"<i></font><font color="white">Your best partner to Discover new vehicles</font><font color="orange"></i>"</font></b></h9>
+           </div>
+         </section>
+
+
+
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="abouttext">About</h1>
+                  <p class="aboutcontent">  Carfinder is your one stop solution to finding the
+                    best possible car for you! Just answer a few simple questions, and let Carfinder do the rest.</p>
+                    <p class="aboutnote">NOTE: This website is for purely illustrative purposes only, and does nor provide accurate results. FoldON is not responsible for any harm caused by the results found therein.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="findmycar" class="services-section">
+        <div class="container"><iframe src="search/index.html#3" scrolling="no"
+          frameborder="0" ></iframe>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <h1></h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact-section">
+        <div class="container" id="bgcnt">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1><font color="white">Contact us</font></h1>
+                    <div class="cl">
+                      <i><span id="cmttxt">Email-id:</span></i><br>
+                    <input type="text" id="txt" /><br>
+                    <i><span id="cmttxt">Name:</span></i><br>
+                    <input type"text" id="txt"/><br>
+                    <span id="cmttxt">Comments:</span><br>
+                    <textarea  id="cmt" /></textarea><br>
+                    <button>Submit</button>
+                  </div>
+                  <div class="cr">
+
+                    <br>
+                    <span id="mail">Email</span>
+                    <br>
+                    <i id="mm">info@foldon.xyz</i><br>
+
+                    <span id="head"><i><u>Credits</u></i> </span>
+                    <ul id="namecre"><li> Naeem Hadiq</li>
+                      <li> Nibras Nazar</li>
+                      <li> Sai Pranav</li>
+                      <li> Fadhil Basheer</li>
+                      <li> Shahabaz </li>
+                      <li> Aisha</li>
+                      <li> Shehza</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fut" class="footer-section">
+     <center>&copy;Copyright 2016 | All Rights Reserved</center>
+</section>
+
+    <script src="javascript/jkquery.js"></script>
+
+
+    <script src="javascript/bootstrap.min.js"></script>
+
+    <script src="javascript/jquery.easing.min.js"></script>
+    <script src="javascript/scrolling-nav.js"></script>
+
+</body>
+
+</html>

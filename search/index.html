@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+  <!-- title and meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0" name="viewport">
+  <meta content="description" name="">
+
+  <title>Carfinder.com</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="Dropdown%20filter%20using%20jquery_files/style.css" rel="stylesheet" media="all">
+<script src="Dropdown%20filter%20using%20jquery_files/ca-pub-1456458421931279.js"></script><script src="Dropdown%20filter%20using%20jquery_files/jquery-1.js"></script>
+<script type="text/javascript" src="Dropdown%20filter%20using%20jquery_files/filters.js"></script>
+<script type="text/javascript" src="Dropdown%20filter%20using%20jquery_files/jquery.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+<link rel="stylesheet" href="css2/1140.css">
+<link rel="stylesheet" href="css2/style.css">
+
+  <!-- js -->
+  <script src="js/modernizr.js"></script>
+</head>
+
+<body >
+
+<div class="wrapper">
+
+
+      <section class="module parallax parallax-2" id="3">
+        <div class="container">
+          <h1></h1> <div class="fil">
+    <h5> Specs :</h5><br>
+    <h6>Fuel</h6>
+    <select class="form-control" id="fuel">
+    <option value="NULL" >Select</option>
+      <option value="petrol" >Petrol</option>
+      <option value="diesel">Diesel</option>
+      <option value="hybrid">Electric/Hybrid</option>
+    </select>
+    <br><br>
+    <h6>Class</h6>
+    <select class="form-control" id="class">
+    <option  value="NULL">Select</option>
+      <option  value="economic" >Economic</option>
+      <option value="moderate">Moderate</option>
+      <option value="luxury">Luxury</option>
+  </select><br><br>
+  <h6>Style</h6>
+  <select class="form-control" id="type">
+  <option value="NULL" >Select</option>
+     <option  value="hatchback" >HatchBack</option>
+     <option value="sedan">Sedan</option>
+     <option value="suv">Suv</option>
+  </select>
+  </div>
+
+
+
+
+
+
+<div class="portfolio-container" id="portfolio-container">
+  <div class="portfolio petrol economic hatchback">
+    <a href="#">
+      <div class="portfolio-thumb">
+      <h3 class="kk"> Tata Nano</h3>
+      <img src="images/nanoeconomicpetrol.jpeg" alt="" title="">
+        <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:600cc</li>
+        <li><b>Price Starts</b>:1.0 lkhs</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio petrol economic hatchback">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">Hyundai Eon</h3>
+        <img src="images/eoneconomicpetrol.jpeg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:800cc</li>
+        <li><b>Price Starts</b>:3.23 lkhs</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio petrol economic hatchback">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">Maruthi Alto</h3>
+        <img src="images/altoeconomicpetrol.jpeg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:800cc</li>
+        <li><b>Price Starts</b>:3.2 lkhs</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+
+  <div class="portfolio diesel moderate hatchback">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">Honda Jazz</h3>
+        <img src="images/jazzmoderatepetrol.jpeg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:1496cc</li>
+        <li><b>Price Starts</b>:6.30 lkhs</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio diesel luxury sedan">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">Bently</h3>
+        <img src="images/bentlydieselluxury.jpg"  alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:3496cc</li>
+        <li><b>Price Starts</b>:72.0 lkhs</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio diesel moderate sedan">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">Honda City</h3>
+        <img src="images/citymoderatediesel.jpeg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:1498cc</li>
+        <li><b>Price Starts</b>:7.89 lkhs</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio diesel moderate hatchback">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">Maruthi Swift</h3>
+        <img src="images/swiftmoderatediesel.jpeg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:1300cc</li>
+        <li><b>Price Starts</b>:6.3 lkhs</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio petrol sedan moderate">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">Maruti Ciaz</h3>
+        <img src="images/ciazmoderatepetrol.jpeg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:1297cc</li>
+        <li><b>Price Starts</b>:8.57 lkhs</li>
+      </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio petrol luxury hatchback">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">BMW X1</h3>
+        <img src="images/bmwhatchbackdiesel.jpeg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:2198cc</li>
+        <li><b>Price Starts</b>:36.7 lkhs</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio petrol diesel luxury hybrid">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">BMW i8 </h3>
+        <img src="images/bmwhybrid.jpeg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:4900cc</li>
+        <li><b>Price Starts</b>:2.78 Cr</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio petrol suv luxury">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">BMW X5</h3>
+        <img src="images/bmwpetrolsuv.jpeg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:2999cc</li>
+        <li><b>Price Starts</b>:72.9 lkhs</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio diesel sedan luxury  ">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">BMW 630d</h3>
+        <img src="images/bmwdieselsedan.jpeg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:3000cc</li>
+        <li><b>Price Starts</b>:1.15 Cr</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio petrol luxury suv ">
+    <a href="#dynamic-data-table-using-datatable.html">
+      <div class="portfolio-thumb">  <h3 class="kk">Benz M Class</h3>
+        <img src="images/benzpetrolsuv.jpeg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:3000cc</li>
+        <li><b>Price Starts</b>:1.56 lkhs</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio petrol sedan luxury ">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">Benz C Class</h3>
+        <img src="images/benzpetrolsedan.jpeg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:2500cc</li>
+        <li><b>Price Starts</b>:55.0 lkhs</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio diesel hatchback economic ">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">Renault KWID</h3>
+        <img src="images/kwid.jpeg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:800cc</li>
+        <li><b>Price Starts</b>:3.0 lkhs</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio diesel petrol hybrid sedan luxury ">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">Jaguar XF</h3>
+        <img src="images/jaguarsedan.jpeg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:2000cc</li>
+        <li><b>Price Starts</b>:62.4 lkhs</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio  hybrid suv luxury ">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">Hawii Electric</h3>
+        <img src="images/hawtielecluxsuv.jpg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:2600cc</li>
+        <li><b>Price Starts</b>:78.0 lkhs</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+  <div class="portfolio   hybrid hatchback luxury ">
+    <a href="">
+      <div class="portfolio-thumb">  <h3 class="kk">BMW i3</h3>
+        <img src="images/bmwelecluxu.jpeg" alt="" title=""> <h5 class="btm">
+        <ul>
+        <li><b>Displacement</b>:2200cc</li>
+        <li><b>Price Starts</b>:42.0 lkhs</li>
+        </ul></h5>
+      </div>
+    </a>
+  </div>
+ </div>
+        </div>
+      </section>
+
+
+
+</div><!-- /#wrapper -->
+
+
+</body>
+</html>

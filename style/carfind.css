@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+/*.container {
+	width:100%;
+	min-height:750px;
+	margin-top:70px;
+	margin:0 auto;
+}*/
+/*.sorting-container {
+	clear:both;display:inline-block;
+	text-align:center;
+	margin:50px 0px 30px;
+	padding:0px;
+	width:100%;
+}
+
+
+.sorting-container a {
+	color:#FFF;
+	background-color:#069;
+	padding:10px;
+
+	border-left:6px #FFF solid;
+	text-transform:uppercase;
+	text-decoration:none;
+	text-align:center;
+}*/
+/*menu*/
+
+
+/*end menu*/
+/*banner*/
+
+#banhead{ color: Black;
+  font-size: 88px;position: relative;top:-250px;
+  line-height: 600px;
+
+  text-transform: ;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 2s;}
+@-webkit-keyframes example {
+    0%   { left:500px; }
+    100%  { left:0px; }
+
+	}
+	#tagline{color: black;
+  font-size: 18px;position: relative;top:-750px;
+  line-height: 600px;
+
+  text-transform: ;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -webkit-animation-name: example1; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    animation-name: example1;
+    animation-duration: 2s;}
+@-webkit-keyframes example1 {
+    0%   { right:500px; }
+    100%  { right:0px; }
+
+	}
+
+
+/*endbanner*/
+input,textarea,select{width:300px;padding:6px;border:none;margin:0 5px 5px 0;}
+/*.fil{display:block;position:relative;top:-205px;left:75px;
+     background:rgba(0, 31, 51,.5);color:white;width:340px;height:500px;padding:20px;box-shadow:1px 1px 10px white;border-radius:10px;}
+.portfolio-container {
+	width:820px;
+	display:block;
+	overflow: hidden;
+	height:635px;top:-730px;
+
+	position: relative;left:470px;
+	clear:both;
+}
+h5{font-size:40px;}
+h6{font-size: 20px;}
+.portfolio {border:1px solid #eee;background: white;
+	float:left;
+	margin:10px 20px 10px 0px;
+
+	padding:0px;
+	width:250px;
+	margin:7px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.portfolio .portfolio-thumb img {
+	width:150px;
+	height:110px;
+}
+.kk{height:50px;background:#eee;  color:black;  font-size: 20px;
+    font-weight: normal;}
+.btm{font-size:10px;height:30px;background:#eee;color:black;}
